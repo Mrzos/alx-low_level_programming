@@ -3,7 +3,7 @@
 /**
  * main - is to type alphabitic from A to Z
  *
- * Return : n (success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
