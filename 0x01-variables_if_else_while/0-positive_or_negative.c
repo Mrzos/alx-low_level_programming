@@ -5,6 +5,7 @@
 
 /* this script is to detect the number is: positive negative or zero*/
 int main(void)
+/* hello */
 {
 	int n;
 
