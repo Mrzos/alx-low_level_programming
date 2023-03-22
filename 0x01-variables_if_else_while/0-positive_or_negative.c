@@ -3,9 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* this script is to detect the number is: positive negative or zero*/
+/* main  is to detect the number is: positive negative or zero
+ *
+ * return (0) */
 int main(void)
-/* hello */
 {
 	int n;
 
