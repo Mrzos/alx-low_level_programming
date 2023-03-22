@@ -3,17 +3,17 @@
 /**
  * main - is to type alphabitic from A to Z
  *
- * return : always (0) (success) 
+ * Return : always 0 (success)
  */
 int main(void)
 {
-       
-        char n = 'a';
+	char n = 'a';
 
-          while(n <= 122)
-          {
-             putchar(n);
-             n++;
-          }
-        return (0);
+	while(n <= 122)
+	{
+		putchar(n);
+		put(\n);
+		n++;
+	}
+	return (0);
 }
