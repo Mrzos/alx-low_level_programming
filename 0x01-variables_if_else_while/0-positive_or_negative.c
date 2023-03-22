@@ -3,10 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* this script is to detect the  number entered by the user is :
- * positive 
- * negative 
- * or zero*/
+/* this script is to detect the  number entered by the user is : positive negative or zero*/
 int main(void)
 {
 	int n;
