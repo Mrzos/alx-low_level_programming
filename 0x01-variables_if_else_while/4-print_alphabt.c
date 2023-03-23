@@ -10,17 +10,17 @@ int main(void)
 	char n = 'a';
 
 	while (n <= 122)
-        {
+	{
 		if (n == 'e' || n == 'q')
 		{
 			n++;
 		}
-		else 
+		else
 		{
 			putchar(n);
 			n++;
 		}
-        }
+	}
 	putchar('\n');
 	return (0);
 }
