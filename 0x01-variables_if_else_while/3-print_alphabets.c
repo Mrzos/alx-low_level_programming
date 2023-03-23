@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-        char n = 'a';
-        char m = 'A';
+	char n = 'a';
+	char m = 'A';
 
-	while (n<=122)
+	while (n <= 122)
 	{
 		putchar(n);
 		n++;
 	}
-	while (m<=90)
+	while (m <= 90)
 	{
 		putchar(m);
 		m++;
