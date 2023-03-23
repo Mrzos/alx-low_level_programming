@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - this is to type munbers from 1 to 9
+/**
+ * main - this is to type munbers
  *
  * Return: always 0 (seccuss)
  **/
