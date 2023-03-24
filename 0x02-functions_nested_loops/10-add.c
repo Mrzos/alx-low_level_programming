@@ -3,6 +3,8 @@
 /**
  * add - two integers and returns the result.
  *
+ * @a: is a variable
+ * @b: also a variable
  * Return: Always  0
  */
 int add(int a, int b)
