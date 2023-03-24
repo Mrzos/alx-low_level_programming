@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - main function
+ * _abs - to print absolute number
  *
  * @n: character to compare
  *
@@ -12,11 +12,10 @@ int _abs(int n)
 {
 	if (n >= 0)
 	{
-		return(n);
-	
+		return (n);
 	}
-	else 
+	else
 	{
-		return(-n);
+		return (-n);
 	}
 }
