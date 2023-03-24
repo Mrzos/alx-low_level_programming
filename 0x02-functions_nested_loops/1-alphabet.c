@@ -1,8 +1,10 @@
 #include "main.h"
 
+
 /**
- * main - printing alphabitics using lowercase
+ * print_alphabet - printing alphabitics using lowercase
  *
+ * Return: Always 0.
  */
 void print_alphabet(void)
 {
