@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - is to test debugging
- * @i - is a variable
- * Return: 0
+ * main - Test function for positive or negative
+ * Return: 0.
  */
+
 int main(void)
 {
 	int i;
