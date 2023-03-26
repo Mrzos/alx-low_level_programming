@@ -1,9 +1,9 @@
-#include <stdlib.h>
-#include <time.h>
 #include "main.h"
+
 /**
  * main - is to test debugging
  *
+ * @n: is a variable
  * Return: 0
  */
 int main(void)
