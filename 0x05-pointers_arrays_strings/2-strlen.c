@@ -3,7 +3,6 @@
 /**
  * _strlen - to calcule lengthe of string
  * @s: is a variable
- * @l: a variable
  * Return: 0
  */
 int _strlen(char *s)
