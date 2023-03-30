@@ -26,9 +26,9 @@ void puts_half(char *str)
 			h2++;
 		}
 	}
-	else if (half == 0)
+	else if (half != 0)
 	{
-		h2 = (l - 1) / 2;
+		h2 = (l / 2) + 1;
 		while (str[h2] != '\0')
 		{
 			_putchar(str[h2]);
