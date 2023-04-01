@@ -4,7 +4,7 @@
  * _strncat - to complet a array
  * @dest: is a variable
  * @src: also a variable
- * @n; is also variable
+ * @n: is also variable
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
