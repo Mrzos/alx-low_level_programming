@@ -1,41 +1,35 @@
 #include "main.h"
 /**
- * cap_string - capitalizes all words of a string.
- * @s: an array of integers
- * Return: s.
+ * cap_string - capitalizes all words of a string
+ * @str: the string to change the first letter of a word in uppercase
+ *
+ * Return: capitalizes letters
  */
-char *cap_string(char *s)
-{
-	int i = 0;
 
-	while (s[i] != '\0')
+char *cap_string(char *str)
+{
+	int i;
+	int j;
+	char c[] = {44, 59, 46, 33, 63, 34, 40, 41, 123, 125, 32, 10, 9};
+
+	i = 0;
+
+	while (str[i] != '\0')
 	{
-		if (s[i] > 96 && s[i] < 123)
+		if (i == 0 && str[i] >= 97 && str[i] <= 122)
 		{
-			if (s[i - 1] == 32 || s[i - 1] == 11 || s[i - 1] == 10)
+			str[i] = str[i] - 32;
+		}
+		j = 0;
+		while (c[j] != '\0')
+		{
+			if (c[j] == str[i] && (str[i + 1] >= 97 && str[i + 1] <= 122))
 			{
-				s[i] -= 32;
+				str[i + 1] = str[i + 1] - 32;
 			}
-			else if (s[i - 1] == 44 || s[i - 1] == 59 || s[i - 1] == 46)
-			{
-				s[i] -= 32;
-			}
-			else if (s[i - 1] == 40 || s[i - 1] == 41 || s[i - 1] == 123)
-			{
-				s[i] -= 32;
-			}
-			else if (s[i - 1] == 125)
-			{
-				s[i] -= 32;
-			}
-			else if (s[i - 1] == 33 || s[i - 1] == 63 || s[i - 1] == 34)
-			{
-				s[i] -= 32;
-			}
-			else
-				i++;
+			j++;
 		}
 		i++;
 	}
-	return (s);
+	return (str);
 }
