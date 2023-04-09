@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 	return (sqrt_with_two_arrg(n, i));
 }
 /**
- * actual_sqrt_recursion - recurses to find the natural
+ * sqrt_with_two_arrg - recurses to find the natural
  * square root of a number
  * @n: number to calculate the sqaure root of
  * @i: iterator
